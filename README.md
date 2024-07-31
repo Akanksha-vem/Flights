@@ -13,3 +13,7 @@ REST_FRAMEWORK = {
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     )
 }
+#MONITORING LOG RECORDS
+ we created a custom middleware to track all the logs add the middleware in the settings.py file
+'log_rec.middleware.APILogMiddleware',  # Custom middleware
+    
